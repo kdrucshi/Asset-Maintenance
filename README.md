@@ -99,5 +99,48 @@ It involves steps such as
 Given categories to add labels to the Images fed to the function create_training _data.
 
 
+### ![image](https://github.com/user-attachments/assets/c76c745c-83f3-413b-86d5-5c4daf37e216)
+Array Attained after pre-processing
+
+### ![image](https://github.com/user-attachments/assets/c47c19f4-d9ed-4ceb-bcb7-18687504b854)
+## Implementing CNN Architecture using Transfer Learning
+We choose ResNet Architecture to implement our asset maintenance project as ResNet or Residual Networks can stack many layers without explosive gradient problem.
+Here we used libraries such as matplotlib, NumPy, PIL, TensorFlow, keras to implement as Residual Network using Transfer learning.
+In Transfer Learning we implement predesigned and pretrained Neural Network adding 2-3 layers at the last thus providing suitable classification at the end.
+
+
+### ![image](https://github.com/user-attachments/assets/dc6d6691-412f-4b6c-9bdf-19307fafff32)
+Fig: Implementation of ResNet using Transfer Learning
+
+### ![image](https://github.com/user-attachments/assets/acc0aa8a-dade-4c2b-a865-6b5d38fe90bb)
+### Fig: Summary of Implementation
+Images are fed into network with a Size of 100x100, 3 here represents that image are coloured, classes=2 represents that the whole network is designed for binary classification of images i.e., Rust and No rust.
+We used a Network with an epoch of 50, we used optimizer as Adam and a validation split of 0.1 or 10%
+
+
+### ![image](https://github.com/user-attachments/assets/7281fb08-61de-4103-9bdb-0003d2a7645f)
+
+### Fig: Training of ResNet
+
+We acquired an accuracy of 84.7 %.
+
+### ![image](https://github.com/user-attachments/assets/4728c463-4890-4fc2-9fcd-8b7f3987a135)
+# Conclusion
+In the following paper we have discussed about asset maintenance project for classification of images with inconsistencies i.e., in this case were rusted images. We have discussed about methodology for the project that provides us with working as well as the libraries used in this project. 
+Asset maintenance is an emerging need in many industries thus automating the process provides us with faster detection of inconsistencies, hence delivering faster response time against the fault found. This project with an 84.7 % accuracy proves that Neural Networks can be used in this sector to deliver less fault detection time, they can be trained on huge datasets to provide us with better results. Improving their performance can be done in various ways, using many other strategies like increasing the size of training dataset, increasing size of provided coloured images etc.
+In future many more changes can be done, and this framework can be integrated in form of application to be deployed.
+
+# References
+•	www.ibm.com
+•	www.artesis.com
+•	www.towardsdatascience.com
+•	Yamashita, R., Nishio, M., Do, R.K.G. et al. Convolutional neural networks: an overview and application in radiology.
+•	www.kaggle.com
+•	A Transfer Residual Neural Network Based on ResNet‐34 for Detection of Wood Knot Defects Mingyu Gao, Jianfeng Chen, Hongbo Mu and Dawei Qi 
+•	Teja Kattenborn, Jens Leitloff, Felix Schiefer, Stefan Hinz,
+•	Review on Convolutional Neural Networks (CNN) in vegetation remote sensing
+•	Deep Residual Learning for Image Recognition Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun Microsoft Research
+•	Yamashita, RikiyaNishio, MizuhoDo, Richard Kinh GianTogashi, Kaori, Convolutional neural networks: an overview and application in radiology
+
 
 
