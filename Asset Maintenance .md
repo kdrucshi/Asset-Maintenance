@@ -22,7 +22,8 @@ for category in CATEGORIES:
 
 
     
-![png](output_1_0.png)
+![output_1_0](https://github.com/user-attachments/assets/f8e4124a-e48e-4b23-9cfe-eb85cbb82aec)
+
     
 
 
