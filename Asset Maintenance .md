@@ -109,7 +109,8 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![output_4_0](https://github.com/user-attachments/assets/1dce4680-6ccb-47ee-816e-b29b8ff62b89)
+
     
 
 
@@ -587,7 +588,8 @@ plt.imshow(image)
 
 
     
-![png](output_24_1.png)
+![output_24_1](https://github.com/user-attachments/assets/ee5f14dc-3811-4f06-a795-597b591cc7cf)
+
     
 
 
